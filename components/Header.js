@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Modal from "react-modal";
 import { useRouter } from "next/router";
 import TransferModal from "./modal/TransferModal";
-import Link from "next/Link";
+import Link from "next/link";
 
 //// Make sure to bind modal to your appElement
 Modal.setAppElement("#__next");
